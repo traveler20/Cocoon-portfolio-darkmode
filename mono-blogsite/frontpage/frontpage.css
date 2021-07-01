@@ -1,0 +1,148 @@
+/************************************
+** トップページカスタマイズ
+************************************/
+/* .home #main h1 {
+	font-size: 1em;
+	color: #555;
+	letter-spacing: 1px;
+	margin: 1em 0 -2em;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+}
+.home #main h1:before,
+.home #main h1:after {
+	content: "";
+	flex-grow: 1;
+	height: 1px;
+	background: #aaa;
+	display: block;
+}
+.home #main h1:before {
+	margin-right: 0.4em;
+}
+.home #main h1:after {
+	margin-left: 0.4em;
+} */
+.home #main .large-thumb {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0.8em 0;
+}
+.home #main .large-thumb a {
+	width: 50%;
+	padding: 10px;
+}
+.home #main .large-thumb a:hover {
+	background: unset;
+}
+.home #main .widget-entry-cards .e-card {
+	font-size: 18px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	height: 100%;
+}
+.home #main .widget-entry-cards .e-card:hover {
+	transform: translateY(-3px);
+	box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.08);
+}
+.home #main .widget-entry-cards figure {
+	float: none;
+	width: 100%;
+}
+.home #main .widget-entry-cards figure img {
+	width: 100%;
+	display: block;
+	object-fit: cover;
+	height: 210px;
+}
+.home #main .widget-entry-cards .card-content {
+	margin: 0 0 0.5em;
+	padding: 10px 15px;
+	background: #fff;
+}
+.home #main .large-thumb .new-entry-card-title,
+.home #main .large-thumb .popular-entry-card-title {
+	font-size: 0.9em;
+	line-height: 1.5;
+	font-weight: 600;
+	color: #555;
+	margin-top: 3px;
+}
+/*(スマホ)480px以下*/
+@media screen and (max-width: 480px) {
+	/* .home #main h1 {
+		margin: 1em 0 0;
+		padding: 0;
+		font-size: 0.8em;
+	} */
+	.home #main .widget-entry-cards .e-card {
+		margin: 0 5px;
+	}
+	.home #main .large-thumb a {
+		width: 100%;
+		padding: 0;
+		margin: 0 0 15px;
+	}
+	.home .mobile-2 {
+		justify-content: space-between;
+	}
+	.home .mobile-2 a {
+		width: 48% !important;
+	}
+	.home .mobile-2 figure img {
+		object-fit: unset !important;
+		height: auto !important;
+	}
+	.home #main .large-thumb .new-entry-card-title {
+		line-height: 1.3;
+	}
+}
+/************************************
+** ボタン
+************************************/
+.p-button {
+	max-width: 300px;
+	margin: 0 auto;
+}
+.p-button a {
+	display: block;
+	margin: 25px 0;
+	padding: 0.5em 1em;
+	border-radius: 2em;
+	color: #e9e9e9;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: none;
+	background: #333333;
+	box-shadow: 0 5px 20px #222222;
+	text-align: center;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	opacity: 1;
+}
+.p-button a:hover {
+	box-shadow: none;
+	transform: translateY(3px);
+	opacity: 1;
+}
+
+.front-top-page #main .entry-title {
+	display: none;
+}
+
+/************************************
+** SNSなどの削除
+************************************/
+.home header .sns-share,
+.home footer .sns-share,
+.home footer .sns-follow,
+.home header .post-date,
+.home .post-update,
+.home .author-info {
+	display: none;
+}
