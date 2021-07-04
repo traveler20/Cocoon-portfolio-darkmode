@@ -12,12 +12,12 @@
 / 『全体の文字色／背景色』
 ------------------------------------------- */
 .site-name-text-link {
-	color: #d3d3d3;
+	color: #f0f0f0;
 }
 
 body {
-	background-color: #191919;
-	color: #d3d3d3;
+	background-color: #333333;
+	color: #f0f0f0;
 }
 
 .no-scrollable-sidebar .sidebar {
@@ -26,14 +26,14 @@ body {
 
 .no-scrollable-main .main {
 	height: 100%;
-	color: #d3d3d3;
+	color: #f0f0f0;
 }
 
 .header-container,
 .main,
 .sidebar,
 .footer {
-	background-color: #191919;
+	background-color: #333333;
 }
 
 /* -------------------------------------------
@@ -41,14 +41,14 @@ body {
 ------------------------------------------- */
 .tagline,
 .rating-number {
-	color: #d3d3d3;
+	color: #f0f0f0;
 }
 
 /* -------------------------------------------
 / 『グローバルメニュー』
 ------------------------------------------- */
 #navi .navi-in > .menu-header .sub-menu {
-	background-color: #075f66;
+	background-color: #222222;
 }
 
 .header-container {
@@ -57,11 +57,11 @@ body {
 }
 
 .header-container .navi {
-	background-color: #075f66;
+	background-color: #222222;
 }
 
 .header-container.fixed-header {
-	background-color: #075f66;
+	background-color: #222222;
 }
 
 #navi .navi-in a {
@@ -70,7 +70,7 @@ body {
 }
 
 #navi .navi-in a:hover {
-	background-color: rgba(231, 30, 15, 0.8);
+	background-color: #60caad;
 }
 
 /* -------------------------------------------
@@ -92,8 +92,8 @@ body {
 / 『エントリーカード』
 ------------------------------------------- */
 .a-wrap {
-	background-color: #191919;
-	color: #d3d3d3;
+	background-color: #333333;
+	color: #f0f0f0;
 }
 
 /* 奇数番目のカード */
@@ -104,7 +104,7 @@ body {
 
 .entry-card-wrap.a-wrap:nth-child(odd):before {
 	content: "";
-	color: #d3d3d3;
+	color: #f0f0f0;
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -125,7 +125,7 @@ body {
 
 .entry-card-wrap.a-wrap:nth-child(odd):after {
 	content: "";
-	color: #d3d3d3;
+	color: #f0f0f0;
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -144,7 +144,7 @@ body {
 
 .entry-card-wrap.a-wrap:nth-child(even):before {
 	content: "";
-	color: #d3d3d3;
+	color: #f0f0f0;
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -165,7 +165,7 @@ body {
 
 .entry-card-wrap.a-wrap:nth-child(even):after {
 	content: "";
-	color: #d3d3d3;
+	color: #f0f0f0;
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -182,14 +182,14 @@ body {
 
 .a-wrap:hover {
 	background: none;
-	color: #d3d3d3;
+	color: #f0f0f0;
 }
 
 /* -------------------------------------------
 / 『ブログカード』
 ------------------------------------------- */
 .blogcard-label {
-	background-color: #f0291a;
+	background-color: #60caad;
 	color: #fff;
 }
 
@@ -207,7 +207,7 @@ body {
 .pager-post-navi.post-navi-square a {
 	background-color: rgba(231, 30, 15, 0.05);
 	border: 2px outset #444;
-	color: #d3d3d3;
+	color: #f0f0f0;
 	transition: all 0.4s;
 }
 
@@ -224,14 +224,14 @@ body {
 / 『目次』
 ------------------------------------------- */
 .toc-title {
-	color: #d3d3d3;
+	color: #f0f0f0;
 	font-size: 120%;
 	background-image: linear-gradient(
 		135deg,
 		rgba(7, 95, 102, 0.8),
 		rgba(7, 95, 102, 0.8) 50%,
-		rgba(231, 30, 15, 0.8) 50%,
-		rgba(231, 30, 15, 0.8) 100%,
+		#60caad 50%,
+		#60caad 100%,
 		transparent 0
 	);
 	border-radius: 2px;
@@ -283,11 +283,11 @@ body {
 	border: 2px solid #0c0b0b;
 	background-image: linear-gradient(
 		135deg,
-		#075f66,
-		#075f66 30%,
+		#222222,
+		#222222 30%,
 		#0a818b 30%,
-		#075f66 70%,
-		#075f66 100%,
+		#222222 70%,
+		#222222 100%,
 		transparent 0
 	);
 	box-shadow: 0px 0px 0 2px #2c2b2b;
@@ -301,8 +301,8 @@ body {
 .article h3 {
 	position: relative;
 	padding-left: 24px;
-	background-color: #191919;
-	color: #d3d3d3;
+	background-color: #333333;
+	color: #f0f0f0;
 	border-radius: 4px;
 	border: 2px solid #0c0b0b;
 	box-shadow: 0 2px 0 #333;
@@ -316,9 +316,9 @@ body {
 	width: 6px;
 	height: -webkit-calc(100% - 1em);
 	height: calc(100% - 1.1em);
-	background-color: #075f66;
+	background-color: #222222;
 	border-radius: 2px;
-	box-shadow: 2px 2px 0 #c31a0d;
+	box-shadow: 2px 2px 0 #60caad;
 }
 
 /* -------------------------------------------
@@ -344,7 +344,7 @@ body {
 	z-index: 2;
 	width: 14px;
 	height: 14px;
-	background: #075f66;
+	background: #222222;
 	border: 1px outset #817b7b;
 }
 
@@ -353,7 +353,7 @@ body {
 	left: 17px;
 	width: 8px;
 	height: 8px;
-	background: #c31a0d;
+	background: #60caad;
 	border: 1px outset #817b7b;
 }
 
@@ -375,8 +375,8 @@ body {
 	content: "";
 	width: 9px;
 	height: 9px;
-	background-color: #075f66;
-	border: 1px outset #c31a0d;
+	background-color: #222222;
+	border: 1px outset #60caad;
 	transform: rotate(45deg);
 }
 
@@ -406,7 +406,7 @@ body {
 	content: "";
 	width: 12px;
 	height: 22px;
-	background-color: #075f66;
+	background-color: #222222;
 	transform: skew(-15deg);
 	-o-transform: skew(-15deg);
 	-moz-transform: skew(-15deg);
@@ -421,7 +421,7 @@ body {
 	content: "";
 	width: 12px;
 	height: 22px;
-	background-color: #c31a0d;
+	background-color: #60caad;
 	transform: skew(-15deg);
 	-o-transform: skew(-15deg);
 	-moz-transform: skew(-15deg);
@@ -468,31 +468,31 @@ body {
 }
 
 .page-numbers::before {
-	border-top: 1px solid #c31a0d;
-	border-bottom: 1px solid #c31a0d;
+	border-top: 1px solid #60caad;
+	border-bottom: 1px solid #60caad;
 	transform: scale(0, 1);
 }
 
 .page-numbers::after {
-	border-right: 1px solid #c31a0d;
-	border-left: 1px solid #c31a0d;
+	border-right: 1px solid #60caad;
+	border-left: 1px solid #60caad;
 	transform: scale(1, 0);
 }
 
 .pagination a:hover {
 	border-radius: 50%;
-	color: #c31a0d;
+	color: #60caad;
 }
 
 .pagination a:hover::after,
 .pagination a:hover::before {
 	border-radius: 50%;
-	color: #c31a0d;
+	color: #60caad;
 	transform: scale(1);
 }
 
 .pagination .current {
-	color: #c31a0d;
+	color: #60caad;
 	background: none;
 	border: 1px outset #403d3d;
 	background-image: linear-gradient(
@@ -509,7 +509,7 @@ body {
 / 『マルチページ』
 ------------------------------------------- */
 .pager-numbers .current {
-	color: #c31a0d;
+	color: #60caad;
 }
 
 .pager-links a:hover span {
@@ -530,13 +530,13 @@ body {
 	color: #ccc;
 	box-shadow: 0 2px 4px rgba(82, 76, 76, 0.3),
 		inset 0 1px 0 rgba(255, 255, 255, 0.4);
-	background-color: #075f66;
+	background-color: #222222;
 }
 
 .comment-btn:hover,
 .container input[type="submit"]:hover {
 	color: #ccc;
-	background-color: #075f66;
+	background-color: #222222;
 	border: 1px outset #aaaaaa;
 }
 
@@ -557,11 +557,11 @@ table td,
 table th,
 .scrollable-table th {
 	background-color: rgba(7, 95, 102, 0.4);
-	color: #d3d3d3;
+	color: #f0f0f0;
 }
 
 table tr:nth-of-type(2n + 1) {
-	background-color: #191919;
+	background-color: #333333;
 }
 
 table tr:nth-of-type(2n) {
@@ -598,7 +598,7 @@ table tr:nth-of-type(2n) {
 }
 
 .carousel-in {
-	background-color: #191919;
+	background-color: #333333;
 }
 
 .widget-entry-card .card-thumb img,
@@ -614,8 +614,8 @@ table tr:nth-of-type(2n) {
 
 .recent-comments .a-wrap {
 	box-shadow: 0px 2px 0px #fbfafa;
-	border: 2px solid #191919;
-	box-shadow: 0px 2px 0px #191919;
+	border: 2px solid #333333;
+	box-shadow: 0px 2px 0px #333333;
 	color: #ccc;
 	box-sizing: border-box;
 	transition: 0.3s;
@@ -627,13 +627,13 @@ table tr:nth-of-type(2n) {
 }
 
 .recent-comment-content {
-	background: #191919;
+	background: #333333;
 	border: 1px solid #ccc;
-	color: #d3d3d3;
+	color: #f0f0f0;
 }
 
 .recent-comment-content::after {
-	border-bottom-color: #191919;
+	border-bottom-color: #333333;
 }
 
 .widget_recent_entries ul li a,
@@ -643,7 +643,7 @@ table tr:nth-of-type(2n) {
 .widget_meta ul li a,
 .widget_rss ul li a,
 .widget_nav_menu ul li a {
-	color: #d3d3d3;
+	color: #f0f0f0;
 	border-bottom: 1px solid #050505;
 	transition-duration: 0.2s;
 	box-shadow: 0 2px 0 #282727;
@@ -665,7 +665,7 @@ table tr:nth-of-type(2n) {
 .widget_rss ul li a:hover,
 .widget_categories ul li a:hover {
 	background-color: rgba(231, 30, 15, 0.3);
-	color: #d3d3d3;
+	color: #f0f0f0;
 }
 
 .widget_recent_entries ul li a {
@@ -713,21 +713,21 @@ table tr:nth-of-type(2n) {
 .widget_nav_menu ul li a .post-count {
 	font-style: italic;
 	font-size: 90%;
-	color: #d3d3d3;
+	color: #f0f0f0;
 }
 
 /* -------------------------------------------
 / 『Topへ戻るボタン』
 ------------------------------------------- */
 .go-to-top-button {
-	border: 2px outset #c31a0d;
-	color: #c31a0d;
+	border: 2px outset #60caad;
+	color: #60caad;
 	background: none;
 	border-radius: 50%;
 }
 
 .go-to-top-button:hover {
-	color: #c31a0d;
+	color: #60caad;
 }
 
 /* -------------------------------------------
@@ -765,7 +765,7 @@ blockquote:after {
 	top: 0;
 	border-width: 0 0 60px 60px;
 	border-style: solid;
-	border-color: transparent #191919;
+	border-color: transparent #333333;
 	bottom: auto;
 }
 
@@ -798,7 +798,7 @@ blockquote p {
 	font-weight: bold;
 	font-style: italic;
 	text-shadow: -1px -1px 0 #fff, 2px 1px 0 rgba(51, 51, 51, 0);
-	color: #075f66;
+	color: #222222;
 	text-align: center;
 }
 
@@ -854,24 +854,16 @@ blockquote p {
 / 『フッターメニュー、背景』
 ------------------------------------------- */
 .navi-footer-in a {
-	color: #d3d3d3;
+	color: #f0f0f0;
 }
 
 .footer-bottom.fnm-text-width .menu-footer li a:hover {
 	background: none;
-	color: #c31a0d;
+	color: #60caad;
 }
 
 .footer {
-	background-image: repeating-linear-gradient(
-		135deg,
-		rgba(231, 30, 15, 0.2),
-		rgba(231, 30, 15, 0.2) 20%,
-		rgba(7, 95, 102, 0.2) 20%,
-		rgba(7, 95, 102, 0.2) 80%,
-		rgba(231, 30, 15, 0.2) 80%,
-		rgba(231, 30, 15, 0.2)
-	);
+	background-color: #222222;
 }
 
 /* -------------------------------------------
@@ -897,39 +889,39 @@ a {
 #search-menu-input:checked ~ #search-menu-content,
 #share-menu-input:checked ~ #share-menu-content,
 #follow-menu-input:checked ~ #follow-menu-content {
-	background-color: #191919;
+	background-color: #333333;
 }
 
 .mobile-menu-buttons .menu-button > a {
-	color: #d3d3d3;
+	color: #f0f0f0;
 }
 
 .mobile-menu-buttons .menu-button:hover {
-	background-color: #191919;
-	color: #d3d3d3;
+	background-color: #333333;
+	color: #f0f0f0;
 }
 
 .mobile-menu-buttons {
-	background-color: #191919;
+	background-color: #333333;
 }
 
 #navi-menu-input:checked ~ #navi-menu-content {
-	background-color: #191919;
+	background-color: #333333;
 }
 
 .menu-drawer a {
-	color: #d3d3d3;
+	color: #f0f0f0;
 	border-bottom: 1px solid #050505;
 	box-shadow: 0 2px 0 #333;
 }
 
 .menu-drawer a:hover {
-	color: #d3d3d3;
+	color: #f0f0f0;
 	background-color: rgba(231, 30, 15, 0.6);
 }
 
 .mobile-menu-buttons .menu-icon {
-	color: #d3d3d3;
+	color: #f0f0f0;
 }
 
 /* -------------------------------------------
@@ -975,7 +967,7 @@ a {
 }
 
 .breadcrumb a {
-	color: #d3d3d3;
+	color: #f0f0f0;
 }
 
 /* -------------------------------------------
@@ -1026,7 +1018,7 @@ select {
 / 『文字の色』
 ------------------------------------------- */
 .keyboard-key {
-	background-color: #191919;
+	background-color: #333333;
 	box-shadow: 1px 2px 2px #3c3b3b;
 }
 
@@ -1081,7 +1073,7 @@ span[class^="marker"] {
 }
 
 span[class^="marker-under"] {
-	color: #d3d3d3;
+	color: #f0f0f0;
 }
 
 .marker-under {
@@ -1140,7 +1132,7 @@ span[class^="marker-under"] {
 / 『マイクロコピー』
 ------------------------------------------- */
 .micro-balloon {
-	background-color: #191919;
+	background-color: #333333;
 }
 
 .micro-bottom.micro-balloon:before {
@@ -1148,7 +1140,7 @@ span[class^="marker-under"] {
 }
 
 .micro-bottom.micro-balloon:after {
-	border-bottom-color: #191919;
+	border-bottom-color: #333333;
 }
 
 .micro-balloon:before {
@@ -1156,7 +1148,7 @@ span[class^="marker-under"] {
 }
 
 .micro-balloon:after {
-	border-top-color: #191919;
+	border-top-color: #333333;
 }
 
 /* -------------------------------------------
@@ -1164,7 +1156,7 @@ span[class^="marker-under"] {
 ------------------------------------------- */
 pre {
 	border: 1px inset #555;
-	background-color: #191919;
+	background-color: #333333;
 }
 
 /* -------------------------------------------
@@ -1177,31 +1169,31 @@ pre {
 }
 
 div.speech-balloon {
-	background-color: #191919;
-	border-color: #d3d3d3;
+	background-color: #333333;
+	border-color: #f0f0f0;
 }
 
 .sbs-flat .speech-balloon,
 .sbs-line.sbp-r .speech-balloon {
-	background-color: #191919;
+	background-color: #333333;
 }
 
 .speech-balloon::before {
-	border-right-color: #d3d3d3;
+	border-right-color: #f0f0f0;
 }
 
 .speech-balloon::after,
 .sbs-flat .speech-balloon::after {
-	border-right-color: #191919;
+	border-right-color: #333333;
 }
 
 .sbp-r .speech-balloon::before {
-	border-left-color: #d3d3d3;
+	border-left-color: #f0f0f0;
 }
 
 .sbp-r .speech-balloon::after,
 .sbs-line.sbp-r .speech-balloon::after {
-	border-left: 12px solid #191919;
+	border-left: 12px solid #333333;
 }
 
 /* -------------------------------------------
@@ -1244,7 +1236,7 @@ div.speech-balloon {
 ------------------------------------------- */
 .box-menu {
 	background-color: transparent;
-	color: #d3d3d3;
+	color: #f0f0f0;
 }
 
 .appeal-content,
@@ -1254,17 +1246,17 @@ div.speech-balloon {
 }
 
 .appeal-button {
-	background-color: #c31a0d;
+	background-color: #60caad;
 }
 
 .label-box-label {
 	color: #fff;
-	text-shadow: #191919 3px 0 0, #191919 2px 1px 0, #191919 2px 2px 0,
-		#191919 2px 3px 0, #191919 1px 3px 0, #191919 0 3px 0, #191919 -1px 3px 0,
-		#191919 -2px 2px 0, #191919 -3px 1px 0, #191919 -3px 0 0,
-		#191919 -3px -1px 0, #191919 -3px -2px 0, #191919 -2px -2px 0,
-		#191919 -1px -3px 0, #191919 0 -3px 0, #191919 1px -3px 0,
-		#191919 2px -2px 0, #191919 2px -2px 0, #191919 3px -1px 0;
+	text-shadow: #333333 3px 0 0, #333333 2px 1px 0, #333333 2px 2px 0,
+		#333333 2px 3px 0, #333333 1px 3px 0, #333333 0 3px 0, #333333 -1px 3px 0,
+		#333333 -2px 2px 0, #333333 -3px 1px 0, #333333 -3px 0 0,
+		#333333 -3px -1px 0, #333333 -3px -2px 0, #333333 -2px -2px 0,
+		#333333 -1px -3px 0, #333333 0 -3px 0, #333333 1px -3px 0,
+		#333333 2px -2px 0, #333333 2px -2px 0, #333333 3px -1px 0;
 }
 
 .search-edit,
@@ -1299,7 +1291,7 @@ select {
 / 『固定ヘッダー』
 ------------------------------------------- */
 .fixed-header .header {
-	background-color: #075f66;
+	background-color: #222222;
 }
 
 /* -------------------------------------------
@@ -1315,14 +1307,14 @@ select {
 }
 
 .index-tab-buttons .index-tab-button {
-	background-color: #191919;
+	background-color: #333333;
 }
 
 .list-more-button {
-	color: #d3d3d3;
+	color: #f0f0f0;
 }
 
 .list-title-in::before,
 .list-title-in::after {
-	background-color: #d3d3d3;
+	background-color: #f0f0f0;
 }
