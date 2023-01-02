@@ -111,6 +111,8 @@ a {
 }
 .ect-vertical-card .entry-card-wrap .entry-card-thumb img {
   border-radius: 4px 4px 0 0;
+  object-fit: cover;
+  aspect-ratio: 16/9;
 }
 .ect-vertical-card .entry-card-wrap:hover {
   box-shadow: rgba($color: $c-gray-800, $alpha: 0.1) 0 0 0 1px,
