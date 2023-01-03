@@ -42,10 +42,10 @@ body.public-page,
 .footer {
   background-color: $c-base-300;
 }
-.content,
-.footer {
-  margin-top: 0px;
+.main {
+  background-color: transparent;
 }
+
 a {
   color: $c-legacy-red;
   &:where(:not(.wp-element-button)) {
@@ -60,6 +60,9 @@ a {
   }
 }
 
+.author-info {
+  display: none;
+}
 .ff-yu-gothic {
   font-family: YuGothic, "Yu Gothic", "Helvetica Neue", Arial,
     "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
@@ -147,6 +150,7 @@ a {
 .article h4,
 .article h5,
 .article h6 {
+  margin-top: 2em;
   margin-bottom: 0.8em;
 }
 // .article h2
@@ -250,6 +254,12 @@ a {
     background-color: $c-base-100;
   }
 }
+// .wp-block-preformatted
+.wp-block-preformatted {
+  padding: 0.4em 0.8em;
+  background-color: $c-base-350;
+  border: solid 0.5px $c-gray-300;
+}
 // code/詩はハイライト？があるので一旦保留
 // .wp-block-code,
 // .wp-block-verse {
@@ -273,6 +283,7 @@ a {
 .related-entry-card-wrap.a-wrap,
 .prev-post.a-wrap,
 .next-post.a-wrap {
+  background-color: $c-white;
   box-shadow: rgba($color: $c-gray-800, $alpha: 0.1) 0px 0px 0px 1px,
     rgba($color: $c-gray-800, $alpha: 0.1) 0px 2px 4px;
   border-radius: 4px;
@@ -294,7 +305,56 @@ a {
 }
 
 //
+.blogcard,
+.ecb-entry-border .entry-card-wrap,
+.page-numbers,
 .pagination-next-link,
+.comment-btn,
+.index-tab-buttons .index-tab-button,
+.border-square a,
+.author-box {
+  border-color: $c-gray-300;
+}
+.pagination {
+  .current {
+    background-color: $c-gray-200;
+  }
+  a:hover {
+    color: $c-legacy-red-hover;
+    background-color: $c-base-200;
+    box-shadow: rgba($color: $c-gray-800, $alpha: 0.1) 0 0 0 1px,
+      rgba($color: $c-gray-800, $alpha: 0.1) 0 2px 4px,
+      0 20px 32px rgba($color: $c-gray-800, $alpha: 0.1);
+  }
+}
+
+//
+.pagination-next-link {
+  border: none;
+  color: $c-black;
+  background-color: $c-white;
+  box-shadow: rgba($color: $c-gray-800, $alpha: 0.1) 0px 0px 0px 1px,
+    rgba($color: $c-gray-800, $alpha: 0.1) 0px 2px 4px;
+  border-radius: 4px;
+  margin: 24px auto 0;
+  max-width: 400px;
+  transition: all 0.4s;
+  font-size: 16px;
+  &:hover {
+    color: $c-legacy-red-hover;
+    background-color: $c-base-200;
+    box-shadow: rgba($color: $c-gray-800, $alpha: 0.1) 0 0 0 1px,
+      rgba($color: $c-gray-800, $alpha: 0.1) 0 2px 4px,
+      0 20px 32px rgba($color: $c-gray-800, $alpha: 0.1);
+  }
+  &:active {
+    color: $c-legacy-red-active;
+    background-color: $c-gray-200;
+    box-shadow: rgba($color: $c-gray-800, $alpha: 0.1) 0 0 0 1px,
+      rgba($color: $c-gray-800, $alpha: 0.1) 0 2px 4px,
+      0 20px 32px rgba($color: $c-gray-800, $alpha: 0.1);
+  }
+}
 .comment-btn,
 .container input[type="submit"] {
   border: none;
@@ -311,13 +371,18 @@ a {
   &:hover {
     // color: $c-legacy-red-hover;
     // background-color: $c-base-200;
+    color: $c-white;
     background-color: $c-legacy-red-hover;
     box-shadow: rgba($color: $c-gray-800, $alpha: 0.1) 0 0 0 1px,
       rgba($color: $c-gray-800, $alpha: 0.1) 0 2px 4px,
       0 20px 32px rgba($color: $c-gray-800, $alpha: 0.1);
   }
   &:active {
+    color: $c-white;
     background-color: $c-legacy-red-active;
+    box-shadow: rgba($color: $c-gray-800, $alpha: 0.1) 0 0 0 1px,
+      rgba($color: $c-gray-800, $alpha: 0.1) 0 2px 4px,
+      0 20px 32px rgba($color: $c-gray-800, $alpha: 0.1);
   }
 }
 
@@ -336,6 +401,7 @@ input[type="url"],
 textarea,
 select {
   //   background-color: $c-base-120;
+  background-color: $c-white;
   border: solid 0.5px $c-gray-300;
 }
 //

@@ -28,9 +28,8 @@ body.public-page,
   background-color: #fffefc;
 }
 
-.content,
-.footer {
-  margin-top: 0px;
+.main {
+  background-color: transparent;
 }
 
 a {
@@ -45,6 +44,10 @@ a:hover {
 }
 a:active {
   color: #bf4d45;
+}
+
+.author-info {
+  display: none;
 }
 
 .ff-yu-gothic {
@@ -100,6 +103,7 @@ a:active {
 .article h4,
 .article h5,
 .article h6 {
+  margin-top: 2em;
   margin-bottom: 0.8em;
 }
 
@@ -191,6 +195,12 @@ a:active {
   background-color: #fff;
 }
 
+.wp-block-preformatted {
+  padding: 0.4em 0.8em;
+  background-color: #f9f5f1;
+  border: solid 0.5px rgba(0, 0, 0, 0.2);
+}
+
 .caption-box {
   background-color: #fcfcfc;
   border: solid 0.5px rgba(0, 0, 0, 0.2);
@@ -205,6 +215,7 @@ a:active {
 .related-entry-card-wrap.a-wrap,
 .prev-post.a-wrap,
 .next-post.a-wrap {
+  background-color: #fff;
   box-shadow: rgba(4, 4, 4, 0.1) 0px 0px 0px 1px, rgba(4, 4, 4, 0.1) 0px 2px 4px;
   border-radius: 4px;
 }
@@ -234,7 +245,48 @@ a:active {
   color: rgba(0, 0, 0, 0.4);
 }
 
+.blogcard,
+.ecb-entry-border .entry-card-wrap,
+.page-numbers,
 .pagination-next-link,
+.comment-btn,
+.index-tab-buttons .index-tab-button,
+.border-square a,
+.author-box {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.pagination .current {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.pagination a:hover {
+  color: #cf534a;
+  background-color: #f6f5f4;
+  box-shadow: rgba(4, 4, 4, 0.1) 0 0 0 1px, rgba(4, 4, 4, 0.1) 0 2px 4px, 0 20px 32px rgba(4, 4, 4, 0.1);
+}
+
+.pagination-next-link {
+  border: none;
+  color: #111;
+  background-color: #fff;
+  box-shadow: rgba(4, 4, 4, 0.1) 0px 0px 0px 1px, rgba(4, 4, 4, 0.1) 0px 2px 4px;
+  border-radius: 4px;
+  margin: 24px auto 0;
+  max-width: 400px;
+  transition: all 0.4s;
+  font-size: 16px;
+}
+.pagination-next-link:hover {
+  color: #cf534a;
+  background-color: #f6f5f4;
+  box-shadow: rgba(4, 4, 4, 0.1) 0 0 0 1px, rgba(4, 4, 4, 0.1) 0 2px 4px, 0 20px 32px rgba(4, 4, 4, 0.1);
+}
+.pagination-next-link:active {
+  color: #bf4d45;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(4, 4, 4, 0.1) 0 0 0 1px, rgba(4, 4, 4, 0.1) 0 2px 4px, 0 20px 32px rgba(4, 4, 4, 0.1);
+}
+
 .comment-btn,
 .container input[type=submit] {
   border: none;
@@ -247,16 +299,17 @@ a:active {
   transition: all 0.4s;
   font-size: 18px;
 }
-.pagination-next-link:hover,
 .comment-btn:hover,
 .container input[type=submit]:hover {
+  color: #fff;
   background-color: #cf534a;
   box-shadow: rgba(4, 4, 4, 0.1) 0 0 0 1px, rgba(4, 4, 4, 0.1) 0 2px 4px, 0 20px 32px rgba(4, 4, 4, 0.1);
 }
-.pagination-next-link:active,
 .comment-btn:active,
 .container input[type=submit]:active {
+  color: #fff;
   background-color: #bf4d45;
+  box-shadow: rgba(4, 4, 4, 0.1) 0 0 0 1px, rgba(4, 4, 4, 0.1) 0 2px 4px, 0 20px 32px rgba(4, 4, 4, 0.1);
 }
 
 .search-edit,
@@ -272,6 +325,7 @@ input[type=time],
 input[type=url],
 textarea,
 select {
+  background-color: #fff;
   border: solid 0.5px rgba(0, 0, 0, 0.2);
 }
 
