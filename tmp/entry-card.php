@@ -32,7 +32,7 @@ if (is_front_page_type_index()) {
       if ( has_post_thumbnail() && $thumbnail_tag ): ?>
         <?php echo $thumbnail_tag; ?>
       <?php else: // サムネイルを持っていないとき ?>
-		  <img src="https://yurukei-career.com/note/wp-content/themes/cocoon-child-master/ogp_img/img.php?text=<?php the_title() ?>" alt="<?php the_title() ?>" />
+		  <img src="https://traveler20.site/note/wp-content/themes/cocoon-child-master/ogp_img/img.php?text=<?php the_title() ?>" alt="<?php the_title() ?>" />
       <?php endif; ?>
       <?php the_nolink_category(null, apply_filters('is_entry_card_category_label_visible', true)); //カテゴリラベルの取得 ?>
     </figure><!-- /.entry-card-thumb -->

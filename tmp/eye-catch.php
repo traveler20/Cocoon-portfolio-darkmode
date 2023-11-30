@@ -33,7 +33,7 @@ $display_none = (is_eyecatch_visible() && has_post_thumbnail()) ? null : ' displ
 
   } else {
 	  $title = get_the_title();
-    $url = "https://yurukei-career.com/note/wp-content/themes/cocoon-child-master/ogp_img/img.php?text=$title";
+    $url = "https://traveler20.site/note/wp-content/themes/cocoon-child-master/ogp_img/img.php?text=$title";
     $size = get_image_width_and_height($url);
     $width = isset($size['width']) ? $size['width'] : 800;
     $height = isset($size['height']) ? $size['height'] : 600;
